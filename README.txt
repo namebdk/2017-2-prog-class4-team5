@@ -25,7 +25,7 @@ This text file describes brief but precise and complete specification of project
 
 <function descriptions>
 
-1. 입력자료를 입력 역순으로 출력 :
+1. reversing liked list :
 	a.name : reverse
 	b.input parameter : head
 	c.output parameter : temp_2 (reverse linked list의 새로운 head 역할)
@@ -40,9 +40,14 @@ This text file describes brief but precise and complete specification of project
 	b. input parameter : head, cur
 	c. output parameter : head
 
+4. printlist
+	a. name : printList 
+	b. input parameter : head
+	c. output parameter : cnt
+
 <declaration of of important data and data types>
 
 <team 5's idea>
 
 <목표>
-기본 header 파일을 먼저 작성하여 github에 올리고 각자 맡은 함수를 header 파일을 이용해서 구현.
+기본 header 파일을 먼저 작성하여 github에 올리고 각자 맡은 함수를 header,c파일을 이용해서 구현.
