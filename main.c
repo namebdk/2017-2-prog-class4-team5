@@ -2,11 +2,8 @@
 
 link CreateNode(int value);
 link append(link head, link cur);
-link middle(link head, int count);
-void remove_node(link *head, link p, link removed);
-void remove_oddnode(link *head);
-void reverse(link head);
-void printList(link);
+link reverse(link head);
+int printList(link);
 
 int main(void)
 {
@@ -25,15 +22,9 @@ int main(void)
 	head = reverse(head);
 	printList(head);
 	head = reverse(head);
-	printf("\n중간 위치 노드 출력");
-	middle(head, count);
+
 	printf("노드 순방향 출력\n");
 	printList(head);
 
-	printf("홀수번째 노드 삭제\n");
-	remove_oddnode(&head);
-	printList(head);
-
-	printf("입력된 자료의 개수 : %d", count);
 	return 0;
 }
