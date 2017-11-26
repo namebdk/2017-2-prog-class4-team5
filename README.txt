@@ -2,7 +2,7 @@
 
 This text file describes brief but precise and complete specification of project including:
 - funtion descriptions: name, input/output parameters
-- declaration of of important data and data types to be included in user header file
+- declaration of important data and data types to be included in user header file
 - your team's brief ideas of implementations
 
 - - -
@@ -63,9 +63,13 @@ This text file describes brief but precise and complete specification of project
 
 <declaration of important data and data types>
 
-1. struct name: node
-2. struct pointer name: link
-3. header file name: linkedlist.h
+1. header file name: linkedlist.h
+
+2. struct name: node
+ - struct node includes:
+   int value, struct node *next
+
+3. struct pointer name: link
 
 <team 5's idea>
 
