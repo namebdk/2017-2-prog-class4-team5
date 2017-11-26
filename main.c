@@ -22,7 +22,9 @@ int main(void)
 	}
 	printf("입력된 자료의 개수: %d\n\n", count);
 	printf("노드 역순 출력\n");
-	reverse(head);
+	head = reverse(head);
+	printList(head);
+	head = reverse(head);
 	printf("\n중간 위치 노드 출력");
 	middle(head, count);
 	printf("노드 순방향 출력\n");
@@ -32,5 +34,6 @@ int main(void)
 	remove_oddnode(&head);
 	printList(head);
 
+	printf("입력된 자료의 개수 : %d", count);
 	return 0;
 }
