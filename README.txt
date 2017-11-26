@@ -24,6 +24,8 @@ This text file describes brief but precise and complete specification of project
 
 -Readme 파일 : 모두
 
+
+
 <function descriptions>
 
 1. reversing liked list :
@@ -61,6 +63,8 @@ This text file describes brief but precise and complete specification of project
 	d. file name : middle.c 
 	e. ownership : Yunho Choi
 
+
+
 <declaration of important data and data types>
 
 1. header file name: linkedlist.h
@@ -71,7 +75,11 @@ This text file describes brief but precise and complete specification of project
 
 3. struct pointer name: link
 
+
+
 <team 5's idea>
+
+
 
 <목표>
 기본 header 파일을 먼저 작성하여 github에 올리고 각자 맡은 함수를 header파일을 이용해서 구현한다.
