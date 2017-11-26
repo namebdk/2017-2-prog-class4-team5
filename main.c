@@ -3,6 +3,7 @@
 link CreateNode(int value);
 link append(link head, link cur);
 link reverse(link head);
+void middle(link head, int cnt)
 int printList(link);
 
 int main(void)
