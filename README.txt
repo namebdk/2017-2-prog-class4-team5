@@ -22,6 +22,7 @@ This text file describes brief but precise and complete specification of project
 
 -남은 자료를 순서대로 출력 : 김윤희
 
+-Readme 파일 : 모두
 
 <function descriptions>
 
