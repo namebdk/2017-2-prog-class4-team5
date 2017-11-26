@@ -60,7 +60,7 @@ This text file describes brief but precise and complete specification of project
 	d. file name : middle.c 
 	e. ownership : Yunho Choi
 
-<declaration of of important data and data types>
+<declaration of important data and data types>
 
 1. struct name: node
 2. struct pointer name: link
