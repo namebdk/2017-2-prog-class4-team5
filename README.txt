@@ -6,6 +6,10 @@ This text file describes brief but precise and complete specification of project
 - your team's brief ideas of implementations
 
 - - -
+<프로그램 개요>
+ - 사용자로부터 정수값을 입력받는다.(CTRL+Z가 입력될 때까지) 
+ - 입력되는 정수값은 linked list를 구성하면서 node에 저장
+
 
 역할분담
 header 파일 : 전현욱
