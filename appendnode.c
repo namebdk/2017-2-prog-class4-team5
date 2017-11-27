@@ -1,3 +1,5 @@
+#include "linkedlist.h"
+
 link append(link head, link cur)
 {
 	link nextNode = head;

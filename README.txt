@@ -1,4 +1,4 @@
-# README file for TEAM[4,5]:
+﻿# README file for TEAM[4,5]:
 
 This text file describes brief but precise and complete specification of project including:
 - funtion descriptions: name, input/output parameters
@@ -63,14 +63,12 @@ This text file describes brief but precise and complete specification of project
 	d. file name: middle.c 
 	e. ownership: Yunho Choi
 	
-	
 6. remove node
 	a. name: remove_node
 	b. input parameter: head, remove, num
 	c. output parameter: void
 	d. file name: remove_node.c
 	e. ownership: SiHyun Park
-	
 	
 7. node which
 	a. name: node which

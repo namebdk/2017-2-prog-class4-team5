@@ -1,3 +1,5 @@
+#include "linkedlist.h"
+
 link reverse(link head)
 {
 	link temp_1;

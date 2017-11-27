@@ -1,10 +1,12 @@
+#include "linkedlist.h"
+
 void middle(link head, int cnt)
 {
 	link nextNode = head;
 	int n = 0;
-	if (cnt % 2 == 0)
-	{
-		printf("\n- 중간 위치 값 출력(2개) :\n");
+
+	if (cnt % 2 == 0) // 입력자료의 개수가 홀수
+	{ 
 		while (n != (cnt / 2) - 1)
 		{
 			nextNode = nextNode->next;
@@ -16,7 +18,6 @@ void middle(link head, int cnt)
 	}
 	else
 	{
-		printf("\n- 중간 위치 값 출력(1개) :\n");
 		while (n != cnt / 2)
 		{
 			nextNode = nextNode->next;
@@ -25,6 +26,4 @@ void middle(link head, int cnt)
 		printf("\t%d", nextNode->value);
 	}
 	printf("\n");
-
-
 }
