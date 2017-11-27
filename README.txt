@@ -6,23 +6,23 @@ This text file describes brief but precise and complete specification of project
 - your team's brief ideas of implementations
 
 --------------------------------------------------------------------------------------------------
-<ÇÁ·Î±×·¥ °³¿ä>
- - »ç¿ëÀÚ·ÎºÎÅÍ Á¤¼ö°ªÀ» ÀÔ·Â¹Ş´Â´Ù.(CTRL+Z°¡ ÀÔ·ÂµÉ ¶§±îÁö) 
- - ÀÔ·ÂµÇ´Â Á¤¼ö°ªÀº linked list¸¦ ±¸¼ºÇÏ¸é¼­ node¿¡ ÀúÀåÇÑ´Ù.
+<í”„ë¡œê·¸ë¨ ê°œìš”>
+ - ì‚¬ìš©ìë¡œë¶€í„° ì •ìˆ˜ê°’ì„ ì…ë ¥ë°›ëŠ”ë‹¤.(CTRL+Zê°€ ì…ë ¥ë  ë•Œê¹Œì§€) 
+ - ì…ë ¥ë˜ëŠ” ì •ìˆ˜ê°’ì€ linked listë¥¼ êµ¬ì„±í•˜ë©´ì„œ nodeì— ì €ì¥í•œë‹¤.
 
 
-<¿ªÇÒºĞ´ã>
--header ÆÄÀÏ: ÀüÇö¿í
+<ì—­í• ë¶„ë‹´>
+-header íŒŒì¼: ì „í˜„ìš±
 
--ÀÔ·ÂµÈ ÀÚ·áÀÇ °³¼ö¸¦ Ãâ·Â, ÀÔ·ÂÀÚ·á¸¦ ÀÔ·Â ¿ª¼øÀ¸·Î Ãâ·Â, append node, create node: À¯È£¼º
+-ì…ë ¥ëœ ìë£Œì˜ ê°œìˆ˜ë¥¼ ì¶œë ¥, ì…ë ¥ìë£Œë¥¼ ì…ë ¥ ì—­ìˆœìœ¼ë¡œ ì¶œë ¥, append node, create node: ìœ í˜¸ì„±
 
--ÀÔ·ÂÀÚ·áÀÇ Áß°£À§Ä¡¿¡ ÀÖ´Â ÀÚ·áÀÇ °ª Ãâ·Â, ÀÔ·ÂÀÚ·á¸¦ ÀÔ·Â ¼øÀ¸·Î Ãâ·Â : ÃÖÀ±È£
+-ì…ë ¥ìë£Œì˜ ì¤‘ê°„ìœ„ì¹˜ì— ìˆëŠ” ìë£Œì˜ ê°’ ì¶œë ¥, ì…ë ¥ìë£Œë¥¼ ì…ë ¥ ìˆœìœ¼ë¡œ ì¶œë ¥ : ìµœìœ¤í˜¸
 
--ÀÔ·ÂÀÚ·á¿¡¼­ È¦¼ö¹øÂ° ÀÚ·á¸¦ ¸ğµÎ »èÁ¦ : ¹Ú½ÃÇö
+-ì…ë ¥ìë£Œì—ì„œ í™€ìˆ˜ë²ˆì§¸ ìë£Œë¥¼ ëª¨ë‘ ì‚­ì œ : ë°•ì‹œí˜„
 
--³²Àº ÀÚ·á¸¦ ¼ø¼­´ë·Î Ãâ·Â : ±èÀ±Èñ
+-ë‚¨ì€ ìë£Œë¥¼ ìˆœì„œëŒ€ë¡œ ì¶œë ¥ : ê¹€ìœ¤í¬
 
--Readme ÆÄÀÏ : ¸ğµÎ
+-Readme íŒŒì¼ : ëª¨ë‘
 
 --------------------------------------------------------------------------------------------------
 
@@ -31,13 +31,13 @@ This text file describes brief but precise and complete specification of project
 1. reversing liked list
 	a. name: reverse
 	b. input parameter: head
-	c. output parameter: temp_2 (reverse linked listÀÇ »õ·Î¿î head ¿ªÇÒ)
+	c. output parameter: temp_2 (reverse linked listì˜ ìƒˆë¡œìš´ head ì—­í• )
 	d. file name: reverse.c 
 	e. ownership: Hoseong You
 
 2. create node
 	a. name: createNode
-	b. input parameter: N (struct-> int value¿¡ µé¾î°¡°Ô µÊ)
+	b. input parameter: N (struct-> int valueì— ë“¤ì–´ê°€ê²Œ ë¨)
 	c. output parameter: cur 
 	d. file name: createNode.c 
 	e. ownership: Hoseong You
@@ -62,6 +62,22 @@ This text file describes brief but precise and complete specification of project
 	c. output parameter: [void]
 	d. file name: middle.c 
 	e. ownership: Yunho Choi
+	
+	
+6. remove node
+	a. name: remove_node
+	b. input parameter: head, remove, num
+	c. output parameter: void
+	d. file name: remove_node.c
+	e. ownership: SiHyun Park
+	
+	
+7. node which
+	a. name: node which
+	b. input parameter: p, num
+	c. output parameter: p
+	d. file name: node_which.c
+	e. ownership: SiHyun Park
 
 --------------------------------------------------------------------------------------------------
 
@@ -83,5 +99,5 @@ This text file describes brief but precise and complete specification of project
 
 
 
-<¸ñÇ¥>
-±âº» header ÆÄÀÏÀ» ¸ÕÀú ÀÛ¼ºÇÏ¿© github¿¡ ¿Ã¸®°í °¢ÀÚ ¸ÃÀº ÇÔ¼ö¸¦ headerÆÄÀÏÀ» ÀÌ¿ëÇØ¼­ ±¸ÇöÇÑ´Ù.
+<ëª©í‘œ>
+ê¸°ë³¸ header íŒŒì¼ì„ ë¨¼ì € ì‘ì„±í•˜ì—¬ githubì— ì˜¬ë¦¬ê³  ê°ì ë§¡ì€ í•¨ìˆ˜ë¥¼ headeríŒŒì¼ì„ ì´ìš©í•´ì„œ êµ¬í˜„í•œë‹¤.
