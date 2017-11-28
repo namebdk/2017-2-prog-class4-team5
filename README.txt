@@ -25,60 +25,6 @@ This text file describes brief but precise and complete specification of project
 -Readme 파일 : 모두
 
 --------------------------------------------------------------------------------------------------
-
-<Function descriptions>
-
-1. reversing liked list
-	a. name: reverse
-	b. input parameter: head
-	c. output parameter: temp_2 (reverse linked list의 새로운 head 역할)
-	d. file name: reverse.c 
-	e. ownership: Hoseong You
-
-2. create node
-	a. name: createNode
-	b. input parameter: N (struct-> int value에 들어가게 됨)
-	c. output parameter: cur 
-	d. file name: createNode.c 
-	e. ownership: Hoseong You
-
-3. append node
-	a. function name: append
-	b. input parameter: head, cur
-	c. output parameter: head
-	d. file name: appendnode.c 
-	e. ownership: Hoseong You
-
-4. printlist
-	a. name: printList 
-	b. input parameter: head
-	c. output parameter: cnt
-	d. file name: printList.c 
-	e. ownership: 
-
-5. printing middle value
-	a. name: middle 
-	b. input parameter: head, cnt
-	c. output parameter: [void]
-	d. file name: middle.c 
-	e. ownership: Yunho Choi
-	
-6. remove node
-	a. name: remove_node
-	b. input parameter: head, remove, num
-	c. output parameter: void
-	d. file name: remove_node.c
-	e. ownership: SiHyun Park
-	
-7. node which
-	a. name: node which
-	b. input parameter: p, num
-	c. output parameter: p
-	d. file name: node_which.c
-	e. ownership: SiHyun Park
-
---------------------------------------------------------------------------------------------------
-
 <Declaration of important data and data types in user header file>
 
 	a. name: linkedlist.h
@@ -90,7 +36,59 @@ This text file describes brief but precise and complete specification of project
 	d. Data type included in struct
     	   - int value
     	   - struct node *next
-	e. ownership: Jeon Hyunuk 
+	e. stuct pointer name: link
+	f. ownership: Jeon Hyunuk 
+
+--------------------------------------------------------------------------------------------------
+<Function descriptions>
+
+1. reversing liked list
+	a. name: reverse
+	b. input parameter: link head
+	c. output parameter: link temp_2 (reverse linked list의 새로운 head 역할)
+	d. file name: reverse.c 
+	e. ownership: Hoseong You
+
+2. create node
+	a. name: createNode
+	b. input parameter: int value (struct-> int value에 들어가게 됨)
+	c. output parameter: cur 
+	d. file name: createNode.c 
+	e. ownership: Hoseong You
+
+3. append node
+	a. function name: append
+	b. input parameter: link head, link cur
+	c. output parameter: head
+	d. file name: appendnode.c 
+	e. ownership: Hoseong You
+
+4. printlist
+	a. name: printList
+	b. input parameter: link head
+	c. output parameter: cnt
+	d. file name: printList.c 
+	e. ownership: YoonHee Kim
+
+5. printing middle value
+	a. name: middle 
+	b. input parameter: link head, int cnt
+	c. output parameter: [void]
+	d. file name: middle.c 
+	e. ownership: Yunho Choi
+	
+6. remove odd value (Include Two functions)
+	a. name: remove_node
+	b. input parameter: link *head, link p, link removed
+	c. output parameter: [void]
+	d. file name: remove_node.c
+	e. ownership: SiHyun Park
+
+	a. name: node_which
+	b. input parameter: link *head, link h
+	c. output parameter: [void]
+	d. file name: node_which.c
+	e. ownership: SiHyun Park
 
 --------------------------------------------------------------------------------------------------
 <team 5's idea>

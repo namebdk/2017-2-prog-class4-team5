@@ -1,6 +1,6 @@
 #include "linkedlist.h"
 
-link CreateNode(int value)
+link createNode(int value)
 {
 	link cur = (link)malloc(sizeof(node));
 	if (cur == NULL)

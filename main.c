@@ -1,6 +1,6 @@
 #include "linkedlist.h"
 
-link CreateNode(int value);
+link createNode(int value);
 link append(link head, link cur);
 link reverse(link head);
 void middle(link head, int cnt);
@@ -16,7 +16,7 @@ int main(void)
 	while (scanf("%d", &number) != EOF)
 	{
 		count++;
-		cur = CreateNode(number);
+		cur = createNode(number);
 		head = append(head, cur);
 	}
 	printf("---------------------------------------------\n");
