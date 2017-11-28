@@ -67,7 +67,7 @@ This text file describes brief but precise and complete specification of project
 	a. name: printList
 	b. input parameter: link head
 	c. output parameter: cnt
-	d. file name: printList.c 
+	d. file name: printlist.c 
 	e. ownership: YoonHee Kim
 
 5. printing middle value
