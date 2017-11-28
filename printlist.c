@@ -6,7 +6,7 @@ int printList(link head)
  {
  	int cnt = 0;
  
- 	Node nextNode = head;
+  link nextNode = head;
  
  	while (nextNode != NULL)
  	{
