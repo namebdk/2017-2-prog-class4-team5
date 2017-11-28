@@ -12,6 +12,7 @@ int main(void)
 	link head = NULL;
 	link cur;
 	int number, count = 0;
+	printf("정수를 입력하세요(중단: CTRL + z)\n");
 
 	while (scanf("%d", &number) != EOF)
 	{
@@ -19,6 +20,7 @@ int main(void)
 		cur = createNode(number);
 		head = append(head, cur);
 	}
+	
 	printf("---------------------------------------------\n");
 	printf("입력된 자료의 개수: %d\n\n", count);
 	printf("---------------------------------------------\n");
