@@ -42,25 +42,25 @@ This text file describes brief but precise and complete specification of project
 --------------------------------------------------------------------------------------------------
 <Function descriptions>
 
-1. reversing liked list
-	a. name: reverse
-	b. input parameter: link head
-	c. output parameter: link temp_2 (reverse linked list의 새로운 head 역할)
-	d. file name: reverse.c 
-	e. ownership: Hoseong You
-
-2. create node
+1. create node
 	a. name: createNode
 	b. input parameter: int value (struct-> int value에 들어가게 됨)
 	c. output parameter: cur 
 	d. file name: createNode.c 
 	e. ownership: Hoseong You
 
-3. append node
+2. append node
 	a. function name: append
 	b. input parameter: link head, link cur
 	c. output parameter: head
 	d. file name: appendnode.c 
+	e. ownership: Hoseong You
+
+3. reversing liked list
+	a. name: reverse
+	b. input parameter: link head
+	c. output parameter: link temp_2 (reverse linked list의 새로운 head 역할)
+	d. file name: reverse.c 
 	e. ownership: Hoseong You
 
 4. printlist
@@ -92,6 +92,37 @@ This text file describes brief but precise and complete specification of project
 
 --------------------------------------------------------------------------------------------------
 <team 5's idea>
+
+1. create node
+	a. 만들고자 하는 노드에 들어 갈 value 값을 매개변수로 받는다.
+	b. 구조체 포인터(cur)를 선언하고, 동적할당을 하여 포인터가 노드를 가리키게끔 한다.
+	c. 동적할당이 제대로 되었는지 검사한다.
+	d. 노드를 가리키는 포인터(cur)를 반환한다.
+
+2. append node
+	a. head와 cur을 매개변수로 받는다.
+	b. 노드의 next가 null을 가리킬 때 까지 traverse한다.
+	c. next가 null이면 마지막 노드이므로 생성된 노드를 마지막 노드와 연결한다.
+	d. head를 반환한다. 
+
+3. reversing liked list
+	a. 연결리스트의 방향을 전부 뒤집어서 역방향 연결리스트로 수정한다.
+	b. 임시 구조체 포인터 두 개를 이용하여 반복문을 통해 연결리스트를 뒤집는다. 
+	c. 최종적으로 기존 연결리스트의 마지막노드를 가리키는 구조체 포인터를 새로운 헤드로 반환한다. 
+
+4. printlist
+	a. head를 가리키는 포인터를 매개변수로 받는다. 
+	b. 첫 번째 노드의 value부터 출력하고, 다음 노드로 이동한다.
+	c 노드의 next가 null을 가리킬 때 까지 반복한다.
+	d. 노드의 개수를 반환한다.
+
+5. printing middle value
+	a. 노드의 개수와 head를 매개변수로 받는다.
+	b. 입력 자료의 개수가 홀수인지, 짝수인지에 따라 출력할 중간값의 개수를 나눈다.
+	c. 홀수이면 node를 중간까지 이동하고 value를 출력하고,
+ 짝수이면 중간까지 이동해서 value를 출력하고 한 번 더 이동하여 출력한다.
+	
+6. remove odd value (Include Two functions)
 
 
 
