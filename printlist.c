@@ -1,3 +1,7 @@
+#include"linkedlist.h"
+
+
+
 int printList(link head)
  {
  	int cnt = 0;
