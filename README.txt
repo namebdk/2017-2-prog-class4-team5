@@ -16,7 +16,7 @@ This text file describes brief but precise and complete specification of project
 
 -juggling: 유호성
 
--block-swap: 박시현
+-block-swap: 전현욱
 
 -reverse: 김윤희
 
