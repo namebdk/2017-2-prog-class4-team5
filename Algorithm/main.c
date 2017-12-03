@@ -23,8 +23,14 @@ int main()
 		printf("ERROR");
 		exit(1);
 	}
-	printf("문자열 입력 : ");
-	scanf("%s", N );
+	printf("문자열 랜덤입력 : ");
+	str = (char*)malloc(sizeof(char) * (N + 1));
+	srand(time(NULL));
+	for (int i = 0; i < N; i++)
+	{
+		str[i] = (rand() % 26 + 'A');
+	}
+	str[N] = NULL;
 
 	start = clock();
 	//trivial solution
