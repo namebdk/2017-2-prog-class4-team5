@@ -9,15 +9,16 @@ This text file describes brief but precise and complete specification of project
 
 
 <역할분담>
+-header: 전현욱(Jeon1)
 
--main: 최윤호
+-main: 최윤호(yunho303)
 
--trivial: 박시현
+-trivial: 박시현(sihyun98)
 
--juggling: 유호성
+-juggling: 유호성(Youhoseong)
 
--block-swap: 박시현
+-block-swap: 전현욱(Jeon1)
 
--reverse: 김윤희
+-reverse: 김윤희(tngkrbb123)
 
--Readme 파일 : 모두
+-Readme 파일: 모두
