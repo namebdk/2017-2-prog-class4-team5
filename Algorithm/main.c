@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-#include <string.h>
-#include <stdlib.h>
+#include "Rotation.h"
 
 int main()
 {
@@ -13,6 +10,13 @@ int main()
 	scanf("%d %d", &d, &CharArrayOfLength);
 
 	N = (char *)malloc(sizeof(char)*CharArrayOfLength);
+	
+	srand(time(NULL));
+	for (int i = 0; i < N; i++)
+	{
+		str[i] = (rand() % 26 + 'A');
+	}
+	str[N] = NULL;
 
 	if (N == NULL)
 	{
