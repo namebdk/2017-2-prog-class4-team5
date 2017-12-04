@@ -15,18 +15,19 @@ This text file describes brief but precise and complete specification of project
 
 <역할분담>
 
- -main: 최윤호
+-header: 전현욱(Jeon1)
 
- -trivial: 박시현
+-main: 최윤호(yunho303)
 
- -juggling: 유호성
+-trivial: 박시현(sihyun98)
 
- -block-swap: 전현욱
+-juggling: 유호성(Youhoseong)
 
- -reverse: 김윤희
+-block-swap: 전현욱(Jeon1)
 
- -Readme 파일 : 모두
+-reverse: 김윤희(tngkrbb123)
 
+-README 파일: 모두
 --------------------------------------------------------------------------------------------------
 <Declaration of important data and data types in user header file>
 
@@ -60,7 +61,7 @@ This text file describes brief but precise and complete specification of project
 	e. ownership: Hoseong You
 
 3. block-swap
-	a. name: 
+	a. name:
 	b. input parameter: 
 	c. output parameter: 
 	d. file name:  
