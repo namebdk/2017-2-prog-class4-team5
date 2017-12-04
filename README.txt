@@ -8,26 +8,26 @@ This text file describes brief but precise and complete specification of project
 --------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------
-<ÇÁ·Î±×·¥ °³¿ä>
- - ¹®ÀÚ¿­, ¹®ÀÚ¿­ÀÇ ±æÀÌ, È¸Àü È½¼ö µîÀÇ inputÀ» ¹Ş¾Æ¼­ 4°¡Áö ¹æ¹ı¿¡ µû¶ó ¹®ÀÚ¿­À» rotate½ÃÅ°´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÑ´Ù.
- - ¹®ÀÚ¿­ÀÇ ±æÀÌ, È¸Àü È½¼ö, 4°¡Áö rotate ¹æ¹ı¿¡ µû¶ó ½ÇÇà½Ã°£À» ÃøÁ¤ÇÏ°í ºñ±³ÇÑ´Ù.
+<í”„ë¡œê·¸ë¨ ê°œìš”>
+ - ë¬¸ìì—´, ë¬¸ìì—´ì˜ ê¸¸ì´, íšŒì „ íšŸìˆ˜ ë“±ì˜ inputì„ ë°›ì•„ì„œ 4ê°€ì§€ ë°©ë²•ì— ë”°ë¼ ë¬¸ìì—´ì„ rotateì‹œí‚¤ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•œë‹¤.
+ - ë¬¸ìì—´ì˜ ê¸¸ì´, íšŒì „ íšŸìˆ˜, 4ê°€ì§€ rotate ë°©ë²•ì— ë”°ë¼ ì‹¤í–‰ì‹œê°„ì„ ì¸¡ì •í•˜ê³  ë¹„êµí•œë‹¤.
 --------------------------------------------------------------------------------------------------
 
-<¿ªÇÒºĞ´ã>
+<ì—­í• ë¶„ë‹´>
 
--header: ÀüÇö¿í(Jeon1)
+-header: ì „í˜„ìš±(Jeon1)
 
--main: ÃÖÀ±È£(yunho303)
+-main: ìµœìœ¤í˜¸(yunho303)
 
--trivial: ¹Ú½ÃÇö(sihyun98)
+-trivial: ë°•ì‹œí˜„(sihyun98)
 
--juggling: À¯È£¼º(Youhoseong)
+-juggling: ìœ í˜¸ì„±(Youhoseong)
 
--block-swap: ÀüÇö¿í(Jeon1)
+-block-swap: ì „í˜„ìš±(Jeon1)
 
--reverse: ±èÀ±Èñ(tngkrbb123)
+-reverse: ê¹€ìœ¤í¬(tngkrbb123)
 
--README ÆÄÀÏ: ¸ğµÎ
+-README íŒŒì¼: ëª¨ë‘
 --------------------------------------------------------------------------------------------------
 <Declaration of important data and data types in user header file>
 
@@ -41,16 +41,16 @@ This text file describes brief but precise and complete specification of project
     	  
 	d. ownership: Hyunuk Jeon
 
-	//¹Ì¿Ï
+	//ë¯¸ì™„
 
 --------------------------------------------------------------------------------------------------
 <Function descriptions>
 
 1. Trivial solution
-	a. name: 
-	b. input parameter: 
-	c. output parameter:  
-	d. file name:  
+	a. name: Trivial
+	b. input parameter: char str[], int n, int d
+	c. output parameter:  [void]
+	d. file name:  trivial.c
 	e. ownership: SiHyun Park
 
 2. juggling
@@ -85,5 +85,5 @@ This text file describes brief but precise and complete specification of project
 
 
 --------------------------------------------------------------------------------------------------
-<¸ñÇ¥>
+<ëª©í‘œ>
 
