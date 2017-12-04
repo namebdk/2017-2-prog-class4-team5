@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "Rotation.h"
 
 void swap(char arr[], int a, int b, int d)
 {
@@ -10,7 +10,7 @@ void swap(char arr[], int a, int b, int d)
 	}
 }
 
-void block_swap(char arr[], int n, int d)
+void blockswap(char arr[], int n, int d)
 {
 	int temp = 0, pos_d = 0, temp_d = 0;
 	if (d == 0 || d == n)

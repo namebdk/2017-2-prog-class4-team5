@@ -45,7 +45,7 @@ int main()
 
 
 	start = clock();
-	//blockk-swap 
+	blockswap(CharArrayOfLength, N, d);
 	finish = clock();
 	duration = (double)(finish - start) / CLOCKS_PER_SEC;
 	printf("문자열 출력 : %s\n", CharArrayOfLength);

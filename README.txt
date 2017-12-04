@@ -1,4 +1,4 @@
-# README file for TEAM[4,5]:
+﻿# README file for TEAM[4,5]:
 
 This text file describes brief but precise and complete specification of project including:
 - funtion descriptions: name, input/output parameters
@@ -61,10 +61,10 @@ This text file describes brief but precise and complete specification of project
 	e. ownership: Hoseong You
 
 3. block-swap
-	a. name:
-	b. input parameter: 
-	c. output parameter: 
-	d. file name:  
+	a. name: blockswap
+	b. input parameter: char arr[], int n, int d
+	c. output parameter: [void]
+	d. file name: blockswap.c 
 	e. ownership: Hyunuk Jeon
 
 4. reverse 

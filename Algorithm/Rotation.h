@@ -6,7 +6,7 @@
 
 char *trivial(char str[], int n, int d);
 char *juggling(char* str[], int n, int d);
-char *blockswap(char str[], int n, int d);
+void blockswap(char str[], int n, int d);
 char *reverse(char str[], int n, int d);
 
 //필요한 내용들은 보충해주세요 
